@@ -48,8 +48,29 @@ Contributions are welcome. Submit a pull request!
 
 ## Video Tutorial 
 Coming Soon!
+
 ## Slides and Images 
-Coming Soon! 
+<b>Welcome to Stellar:</b>
+<br /> <br>
+<img src="./images/homepage.png" width="600">
+<br><br>
+<b>User Calendar w/ Option to Add Events:</b>
+<br />
+<img src="./images/calendar.png" width="600">
+<br><br>
+<b>My Events Page:</b>
+<br />
+<img src="./images/myevents.png" width="250">
+<br><br> 
+<b>Moon Phase Example:</b>
+<br />
+<img src="./images/moon.png" width="250">
+<br><br> 
+<b>Constellation Detail:</b>
+<br />
+<img src="./images/constellation.png" width="250">
+<br><br> 
+
 ## License 
 This project is licensed under the GNU GPL (https://www.gnu.org/licenses/gpl-3.0.en.html)
     Copyright (C) <2020>  <Clarion Heard, Kailana Kahawaii, Aidan Lincoln>
