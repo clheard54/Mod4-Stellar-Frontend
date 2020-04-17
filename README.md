@@ -35,10 +35,17 @@ Contributions are welcome. Submit a pull request!
 ## Acknowledgements
 ### APIS and Resources
 -Photos: [Unsplash API](https://unsplash.com/)
+<br><br>
 -Constellations: [Constellations](http://calgary.rasc.ca/constellation.htm#list)
+<br><br>
 -Moon Phases: [Farm Sense](http://www.farmsense.net/api/astro-widgets/)
+<br><br>
 -Phenomenon: [Nasa](https://eclipse.gsfc.nasa.gov/SKYCAL/SKYCAL.html)
+<br><br>
 -Calendar: Big thanks to <a href="https://www.linkedin.com/in/matej-kovac-a5b25113a/">Matej Kovac</a> for his tutorial on how to make a [react-calendar](https://github.com/moodydev/react-calendar)
+<br><br>
+-Background Images: http://www.seasky.org/constellations/assets/images/
+
 ## Video Tutorial 
 Coming Soon!
 ## Slides Presenation 
@@ -63,4 +70,3 @@ This project is licensed under the GNU GPL (https://www.gnu.org/licenses/gpl-3.0
 
 
 
-http://www.seasky.org/constellations/assets/images/
