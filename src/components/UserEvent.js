@@ -96,7 +96,7 @@ getEvents = () => {
         details: event.target.details.value,
         user_id: this.props.user.id
       }
-      fetch(`http://localhost:3000/api/v1/edit_event/${this.state.currentEvent.event.id}`, {
+      fetch(`https://warm-earth-33239.herokuapp.com/api/v1/edit_event/${this.state.currentEvent.event.id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",

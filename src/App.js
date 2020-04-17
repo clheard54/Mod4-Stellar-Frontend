@@ -74,7 +74,7 @@ addEvent = (event) => {
     details: event.target.details.value,
     user_id: this.state.auth.user.id
   }
-  fetch("http://localhost:3000/api/v1/events", {
+  fetch("https://warm-earth-33239.herokuapp.com/api/v1/events", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
