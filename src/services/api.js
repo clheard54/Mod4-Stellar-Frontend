@@ -1,4 +1,5 @@
 import { unix } from "moment";
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 const API_ROOT = 'https://warm-earth-33239.herokuapp.com/api/v1';
 
@@ -69,12 +70,20 @@ const createUser = data => {
   }).then(res => res.json());
 };
 
+// const getPhotos = (search) => {
+//     return fetch(`https://api.unsplash.com/search/photos?query=${search}&client_id=qj3dfpSydcMDVv4cmGnE6bxKn_1PYW3-JLvt_IJCLJs`, 
+//     {headers: headers()})
+//     .then(res => {
+//         return res.json()
+//     })
+// }
+
 const getPhotos = (search) => {
-    return fetch(`https://api.unsplash.com/search/photos?query=${search}&client_id=qj3dfpSydcMDVv4cmGnE6bxKn_1PYW3-JLvt_IJCLJs`, 
-    {headers: headers()})
-    .then(res => {
-        return res.json()
-    })
+  return fetch(`https://api.unsplash.com/search/photos?query=${search}&client_id=${API_KEY}`, 
+  {headers: headers()})
+  .then(res => {
+      return res.json()
+  })
 }
 
 export const api = {
