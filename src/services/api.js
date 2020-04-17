@@ -1,6 +1,6 @@
 import { unix } from "moment";
 
-const API_ROOT = `http://localhost:3000/api/v1`;
+const API_ROOT = 'https://warm-earth-33239.herokuapp.com/';
 
 const token = () => localStorage.getItem("token");
 
