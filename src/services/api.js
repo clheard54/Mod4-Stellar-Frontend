@@ -13,7 +13,7 @@ const headers = () => {
 };
 
 const getConstellations = () => {
-  return fetch(`${API_ROOT}/constellations/`, { headers: headers() }).then(res =>
+  return fetch('https://warm-earth-33239.herokuapp.com/api/v1/constellations', { headers: headers() }).then(res =>
     res.json()
   );
 };

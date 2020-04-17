@@ -52,23 +52,23 @@ Coming Soon!
 ## Slides and Images 
 <b>Welcome to Stellar:</b>
 <br /> <br>
-<img src="./images/homepage.png" width="600">
+<img src="./images/homepage.png" width="650">
 <br><br>
 <b>User Calendar w/ Option to Add Events:</b>
 <br />
-<img src="./images/calendar.png" width="600">
+<img src="./images/calendar.png" width="650">
 <br><br>
 <b>My Events Page:</b>
 <br />
-<img src="./images/myevents.png" width="250">
+<img src="./images/myevents.png" width=650">
 <br><br> 
 <b>Moon Phase Example:</b>
 <br />
-<img src="./images/moon.png" width="250">
+<img src="./images/moon.png" width="650">
 <br><br> 
 <b>Constellation Detail:</b>
 <br />
-<img src="./images/constellation.png" width="250">
+<img src="./images/constellation.png" width="650">
 <br><br> 
 
 ## License 
