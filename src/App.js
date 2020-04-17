@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import Navbar from "./components/Navbar";
 import Login from "./components/Login";
 import { api } from "./services/api";
@@ -112,7 +112,7 @@ render() {
     <div className="App">
       <Router>
         <header className="App-header">
-          <h1 style={{margin: '5px', paddingLeft: '10px', paddingTop: '5px', fontStretch: '200%'}}>Stellar</h1>
+          <Link to='/'><h1 style={{color: 'white', margin: '5px', paddingLeft: '10px', paddingTop: '5px', fontStretch: '200%'}}>Stellar</h1></Link>
           <Navbar className='navbar' logout={this.logout} user={this.state.auth.user}/>
         </header>
         <div className = "main">

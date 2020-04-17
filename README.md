@@ -10,22 +10,46 @@ Welcome to Stellar, a calendar that helps you keep track of lunar, solar, and as
 Stellar provides a simple interface to add astronomical events to your calendar. Simply, add an event from a collection of moon phases, constellations, and sky phenomena provided by NASA and others.
 ## Installation 
 [Backend](https://github.com/clheard54/Stellar-Backend)
-1. Clone the repo. 
-2. From your terminal, navigate to the stellar-backend folder.  
-3. From your terminal, type:
-    - bundle install 
-    - rails db:migrate
-    - rails s 
-4. From your web browswer:
-    - navigate to your localhost server to verify Ruby on Rails is working.
-[Frontend](https://github.com/AidanLincoln/Stellar-Frontend)
-5. Clone the repo. 
-6. From your terminal, navigate to the  stellar-frontend folder.
-7. From your terminal, type: 
-    - npm install 
-    - npm start
-8. Sign up for a new account. 
-9. Enjoy :
+## Installing Locally
+
+ - If you'd like to clone down this project repository to your local computer, you can do so by forking it, then hitting the "Clone or download" button in your own fork. Copy the SSH link, and open up your computer's Terminal. Inside, type "git clone <the link you've just copied>". 
+ ```
+   git clone <example: git@github.com:.../Mod4-Stellar-Frontend.git></example:>
+  ```
+ - You'll also need to fork and clone down the <a href="https://github.com/clheard54/Stellar-Backend">backend</a> repo for this project. You can find the link here: https://github.com/clheard54/Stellar-Backend. Follow the same steps as above.
+
+ - Back in your terminal, type "bundle install".
+  ```
+   bundle install
+  ```
+ - Then, from the root directory, run "rake db:create" and "rake:db:migrate" to create the database locally.
+  ```
+   rake db:create && db:migrate
+  ```
+ - Lastly, run "rake db:seed". Now you're ready to go!
+  ```
+   rake db:seed
+  ```
+
+
+To open the app, you'll have to start up a local server. In your terminal, navigate to the backend api directory and then type "rails s".
+ ```
+ rails s
+ ```
+ If you'd like to see your backend database, you can head to "http://localhost:3000/api/v1/constellations" on your favorite browser.
+
+- You'll also need to fork and clone down the [Frontend](https://github.com/cheard54/Mod4-Stellar-Frontend)
+```
+   git clone <example: git@github.com:.../Mod4-Stellar-Frontend.git></example:>
+  ```
+
+- From your terminal, navigate to the  stellar-frontend folder. There, type the following commands: 
+ ```
+npm install
+npm start
+ ```
+- Sign up for a new account, check out some stellar events, and get ready to stargaze like never before! Enjoy!
+
 ## Authors
 -Clarion Heard
 -Kailana Kahawaii 
@@ -34,22 +58,43 @@ Stellar provides a simple interface to add astronomical events to your calendar.
 Contributions are welcome. Submit a pull request!
 ## Acknowledgements
 ### APIS and Resources
--Photos: [Unsplash API](https://unsplash.com/)
+- Photos: [Unsplash API](https://unsplash.com/)
+
+- Constellations: [Constellations](http://calgary.rasc.ca/constellation.htm#list)
+
+- Moon Phases: [Farm Sense](http://www.farmsense.net/api/astro-widgets/)
+
+- Phenomenon: [Nasa](https://eclipse.gsfc.nasa.gov/SKYCAL/SKYCAL.html)
+
+- Calendar: Big thanks to <a href="https://www.linkedin.com/in/matej-kovac-a5b25113a/">Matej Kovac</a> for his tutorial on how to make a [react-calendar](https://github.com/moodydev/react-calendar)
+
+- Background Images: [SeaSky](http://www.seasky.org/constellations/assets/images/)
+
+## Slides and Images 
+<b>Welcome to Stellar:</b>
+<br /> <br>
+<img src="./images/homepage.png" width="650">
 <br><br>
--Constellations: [Constellations](http://calgary.rasc.ca/constellation.htm#list)
+<b>User Calendar w/ Option to Add Events:</b>
+<br />
+<img src="./images/calendar.png" width="650">
 <br><br>
--Moon Phases: [Farm Sense](http://www.farmsense.net/api/astro-widgets/)
-<br><br>
--Phenomenon: [Nasa](https://eclipse.gsfc.nasa.gov/SKYCAL/SKYCAL.html)
-<br><br>
--Calendar: Big thanks to <a href="https://www.linkedin.com/in/matej-kovac-a5b25113a/">Matej Kovac</a> for his tutorial on how to make a [react-calendar](https://github.com/moodydev/react-calendar)
-<br><br>
--Background Images: http://www.seasky.org/constellations/assets/images/
+<b>My Events Page:</b>
+<br />
+<img src="./images/myevents.png" width=650">
+<br><br> 
+<b>Moon Phase Example:</b>
+<br />
+<img src="./images/moon.png" width="650">
+<br><br> 
+<b>Constellation Detail:</b>
+<br />
+<img src="./images/constellation.png" width="650">
+<br><br> 
 
 ## Video Tutorial 
 Coming Soon!
-## Slides Presenation 
-Coming Soon! 
+
 ## License 
 This project is licensed under the GNU GPL (https://www.gnu.org/licenses/gpl-3.0.en.html)
     Copyright (C) <2020>  <Clarion Heard, Kailana Kahawaii, Aidan Lincoln>
@@ -63,10 +108,3 @@ This project is licensed under the GNU GPL (https://www.gnu.org/licenses/gpl-3.0
     GNU General Public License for more details.
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-
-
-
-
-
-

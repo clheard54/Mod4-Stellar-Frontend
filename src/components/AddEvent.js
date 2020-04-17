@@ -41,7 +41,7 @@ render(){
             <label>Any Details?</label><br></br>
             <input type='textarea' name='details'/><br></br><br></br>
             
-            <input type="submit" ></input>
+            <input className="page-button" type="submit" ></input>
         </form>
       </div>
     )
