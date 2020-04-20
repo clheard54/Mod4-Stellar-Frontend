@@ -27,13 +27,13 @@ export default class Login extends React.Component{
 
     handleSubmit = (event) => {
         event.preventDefault()
-        console.log("logging in")
         api.auth.login(this.state.fields).then(res => {
             if (!res.errors){
                 this.props.onLogin(res);
                 this.props.history.push('/calendar')
             } else {
                 this.setState({errors: true})
+                this.props.history.push('/login')
             }
         })
     }

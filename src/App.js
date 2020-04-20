@@ -49,12 +49,13 @@ componentDidMount() {
 
 
 login = data => {
+  if (!!data.user){
   const updatedState = { user: {id: data.user.id,  username: data.user.username}};
-  console.log(updatedState)
   localStorage.setItem("token", data.jwt);
   this.setState({ 
     auth: updatedState
   });
+}
 };
 
 logout = () => {

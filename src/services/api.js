@@ -1,7 +1,7 @@
 import { unix } from "moment";
 const API_KEY = process.env.REACT_APP_API_KEY;
 
-const API_ROOT = 'https://warm-earth-33239.herokuapp.com/api/v1';
+const API_ROOT = `http://localhost:3000/api/v1`;
 
 const token = () => localStorage.getItem("token");
 
@@ -14,7 +14,7 @@ const headers = () => {
 };
 
 const getConstellations = () => {
-  return fetch('https://warm-earth-33239.herokuapp.com/api/v1/constellations', { headers: headers() }).then(res =>
+  return fetch(`${API_ROOT}/constellations/`, { headers: headers() }).then(res =>
     res.json()
   );
 };

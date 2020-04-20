@@ -43,7 +43,7 @@ render(){
             <input type='password' placeholder='password' name='password'/><br></br>
             <br></br>
             <br></br>
-            <input type="submit" ></input>
+            <input className="page-button" type="submit" ></input>
         </form>
       </div>
     )
