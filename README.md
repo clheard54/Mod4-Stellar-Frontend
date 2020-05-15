@@ -1,12 +1,15 @@
 # Stellar: a calendar for the stars
 ## About
 Welcome to Stellar, a calendar that helps you keep track of lunar, solar, and astronomical events. 
-<img src="./images/homepage.png" width="650">
-<br/>
 Head on over to the <a href="https://stellar-778e3.web.app/">live website</a> to start exploring!
+<br/>
+<img src="./images/home.png" width="450">
+<br/>
 
 ## Features
-Stellar provides a simple interface to add astronomical events to your calendar. Simply, add an event from a collection of moon phases, constellations, and sky phenomena provided by NASA and others.
+Stellar provides a simple interface to explore upcoming astronomical events and add ones of interest to your personal calendar. Browse the constellations to learn more about them; check the moon phase over the next few weeks; or search for future meteor showers and fireballs. Simply add an event from our collection of these phenomena (provided by NASA and others), jot down any notes you have for yourself, and get ready to enjoy the stars.
+## Video Demo 
+Coming Soon!
 ## Slides and Images 
 <b>Welcome to Stellar:</b>
 <br /> <br>
@@ -29,8 +32,6 @@ Stellar provides a simple interface to add astronomical events to your calendar.
 <img src="./images/constellation.png" width="650">
 <br><br> 
 
-## Video Tutorial 
-Coming Soon!
 ## Installation 
 [Backend](https://github.com/clheard54/Stellar-Backend)
 ## Installing Locally
