@@ -6,7 +6,7 @@ Head on over to the <a href="https://stellar-778e3.web.app/">live website</a> to
 ## Features
 Stellar provides a simple interface to explore upcoming astronomical events and add ones of interest to your personal calendar. Browse the constellations to learn more about them; check the moon phase over the next few weeks; or search for future meteor showers and fireballs. Simply add an event from our collection of these phenomena (provided by NASA and others), jot down any notes you have for yourself, and get ready to enjoy the stars.
 ## Video Demo 
-[![Check out the video demo!]("./images/youtube.png")](https://www.youtube.com/watch?v=NnVf744va5g)
+<a href="https://www.youtube.com/watch?v=NnVf744va5g"><img src="./images/youtube.png" alt="Check out the video demo!" width="350"></a>
 <br/>
 ## Slides and Images 
 <b>Welcome to Stellar:</b>
