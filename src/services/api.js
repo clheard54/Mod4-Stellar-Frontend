@@ -2,7 +2,7 @@ import { unix } from "moment";
 const API_KEY = process.env.REACT_APP_API_KEY;
 
 const API_ROOT = `http://localhost:3000/api/v1`;
-const heroku_root = 'https://mod4-stellar-backend.herokuapp.com/api/v1/'
+const heroku_root = 'https://mod4-stellar-backend.herokuapp.com/api/v1'
 
 const token = () => localStorage.getItem("token");
 
