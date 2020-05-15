@@ -96,7 +96,7 @@ getEvents = () => {
         details: event.target.details.value,
         user_id: this.props.user.id
       }
-      fetch(`http://localhost:3000/api/v1/edit_event/${this.state.currentEvent.event.id}`, {
+      fetch(`https://mod4-stellar-backend.herokuapp.com/api/v1/edit_event/${this.state.currentEvent.event.id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",
@@ -117,7 +117,7 @@ getEvents = () => {
     }
 
   deleteEvent = (e) => {
-      fetch(`http://localhost:3000/api/v1/events/${e.event.id}`, {
+      fetch(`https://mod4-stellar-backend.herokuapp.com/api/v1/events/${e.event.id}`, {
           method: "DELETE"
         })
         .then(resp => this.getEvents())

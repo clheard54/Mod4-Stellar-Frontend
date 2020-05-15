@@ -61,7 +61,7 @@ export default class MoonPhase extends React.Component {
           details: null, 
           user_id: this.props.user.id
         }
-        fetch("http://localhost:3000/api/v1/events",{
+        fetch("https://mod4-stellar-backend.herokuapp.com/api/v1/events",{
           method: "POST",
           headers: {
             "Content-Type": "application/json",

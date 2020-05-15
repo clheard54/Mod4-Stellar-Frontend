@@ -1,13 +1,36 @@
 # Stellar: a calendar for the stars
 ## About
 Welcome to Stellar, a calendar that helps you keep track of lunar, solar, and astronomical events. 
-## Technologies Used 
-- Ruby on Rails
-- ActiveRecord
-- Javascript 
-- React 
+<img src="./images/homepage.png" width="650">
+<br/>
+Head on over to the <a href="https://stellar-778e3.web.app/">live website</a> to start exploring!
+
 ## Features
 Stellar provides a simple interface to add astronomical events to your calendar. Simply, add an event from a collection of moon phases, constellations, and sky phenomena provided by NASA and others.
+## Slides and Images 
+<b>Welcome to Stellar:</b>
+<br /> <br>
+<img src="./images/homepage.png" width="650">
+<br><br>
+<b>User Calendar w/ Option to Add Events:</b>
+<br />
+<img src="./images/calendar.png" width="650">
+<br><br>
+<b>My Events Page:</b>
+<br />
+<img src="./images/myevents.png" width=650">
+<br><br> 
+<b>Moon Phase Example:</b>
+<br />
+<img src="./images/moon.png" width="650">
+<br><br> 
+<b>Constellation Detail:</b>
+<br />
+<img src="./images/constellation.png" width="650">
+<br><br> 
+
+## Video Tutorial 
+Coming Soon!
 ## Installation 
 [Backend](https://github.com/clheard54/Stellar-Backend)
 ## Installing Locally
@@ -49,7 +72,11 @@ npm install
 npm start
  ```
 - Sign up for a new account, check out some stellar events, and get ready to stargaze like never before! Enjoy!
-
+## Technologies Used 
+- Ruby on Rails
+- ActiveRecord
+- Javascript 
+- React 
 ## Authors
 -Clarion Heard
 -Kailana Kahawaii 
@@ -69,31 +96,6 @@ Contributions are welcome. Submit a pull request!
 - Calendar: Big thanks to <a href="https://www.linkedin.com/in/matej-kovac-a5b25113a/">Matej Kovac</a> for his tutorial on how to make a [react-calendar](https://github.com/moodydev/react-calendar)
 
 - Background Images: [SeaSky](http://www.seasky.org/constellations/assets/images/)
-
-## Slides and Images 
-<b>Welcome to Stellar:</b>
-<br /> <br>
-<img src="./images/homepage.png" width="650">
-<br><br>
-<b>User Calendar w/ Option to Add Events:</b>
-<br />
-<img src="./images/calendar.png" width="650">
-<br><br>
-<b>My Events Page:</b>
-<br />
-<img src="./images/myevents.png" width=650">
-<br><br> 
-<b>Moon Phase Example:</b>
-<br />
-<img src="./images/moon.png" width="650">
-<br><br> 
-<b>Constellation Detail:</b>
-<br />
-<img src="./images/constellation.png" width="650">
-<br><br> 
-
-## Video Tutorial 
-Coming Soon!
 
 ## License 
 This project is licensed under the GNU GPL (https://www.gnu.org/licenses/gpl-3.0.en.html)

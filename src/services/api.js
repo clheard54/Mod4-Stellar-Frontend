@@ -2,6 +2,7 @@ import { unix } from "moment";
 const API_KEY = process.env.REACT_APP_API_KEY;
 
 const API_ROOT = `http://localhost:3000/api/v1`;
+const heroku_root = 'https://mod4-stellar-backend.herokuapp.com/api/v1/'
 
 const token = () => localStorage.getItem("token");
 
@@ -14,19 +15,19 @@ const headers = () => {
 };
 
 const getConstellations = () => {
-  return fetch(`${API_ROOT}/constellations/`, { headers: headers() }).then(res =>
+  return fetch(`${heroku_root}/constellations/`, { headers: headers() }).then(res =>
     res.json()
   );
 };
 
 const getCalendars = () => {
-  return fetch(`${API_ROOT}/calendars`, { headers: headers() })
+  return fetch(`${heroku_root}/calendars`, { headers: headers() })
   .then(res =>
     res.json())
 };
 
 const getPhenomena = () => {
-    return fetch(`${API_ROOT}/sky_events`, {headers: headers() })
+    return fetch(`${heroku_root}/sky_events`, {headers: headers() })
     .then(res => res.json())
 }
 
@@ -36,15 +37,15 @@ const getMoonPhase = (unixTimestamp) => {
 }
 
 const login = data => {
-  return fetch(`${API_ROOT}/login`, {
+  return fetch(`${heroku_root}/login`, {
     method: "POST",
     headers: headers(),
-    body: JSON.stringify( {auth: data})
+    body: JSON.stringify(data)
   }).then(res => res.json());
 };
 
 const getCurrentUser = () => {
-  return fetch(`${API_ROOT}/current_user`, {
+  return fetch(`${heroku_root}/current_user`, {
     headers: headers()
   }).then(res => {
     return res.json();
@@ -52,7 +53,7 @@ const getCurrentUser = () => {
 };
 
 const getEvents = () => {
-  return fetch(`${API_ROOT}/events`, {
+  return fetch(`${heroku_root}/events`, {
     headers: headers()
   }).then(res => {
     return res.json()
@@ -60,7 +61,7 @@ const getEvents = () => {
 }
 
 const createUser = data => {
-  return fetch(`${API_ROOT}/signup`, {
+  return fetch(`${heroku_root}/signup`, {
     method: "POST",
     headers: {      
       "Content-Type": "application/json",
