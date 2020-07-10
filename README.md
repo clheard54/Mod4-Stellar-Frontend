@@ -19,7 +19,7 @@ Stellar provides a simple interface to explore upcoming astronomical events and 
 <br><br>
 <b>My Events Page:</b>
 <br />
-<img src="./images/myevents.png" width=650">
+<img src="./images/myevents.png" width="650">
 <br><br> 
 <b>Moon Phase Example:</b>
 <br />
